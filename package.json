@@ -2,5 +2,8 @@
   "name": "ad-ui-auth",
   "version": "1.2.0",
   "type": "module",
-  "main": "./nuxt.config.js"
+  "main": "./nuxt.config.js",
+  "dependencies": {
+    "defu": "^6.1.4"
+  }
 }
