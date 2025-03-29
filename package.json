@@ -4,6 +4,8 @@
   "type": "module",
   "main": "./nuxt.config.js",
   "dependencies": {
-    "defu": "^6.1.4"
+    "@pinia/nuxt": "^0.5.1",
+    "defu": "^6.1.4",
+    "pinia": "^2.1.7"
   }
 }
