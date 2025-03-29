@@ -35,12 +35,5 @@ console.log("[Layer] :: Adding AD Auth - v1.2.0")
 
 export default defineNuxtConfig({
   components: true,
-
   middleware: ["./middleware/app.global.js"],
-
-  modules: ["@pinia/nuxt"],
-
-  pinia: {
-    storesDirs: ["stores/**"],
-  },
 })
