@@ -2,5 +2,12 @@
   "name": "ad-ui-auth",
   "version": "1.2.0",
   "type": "module",
-  "main": "./nuxt.config.js"
+  "main": "./nuxt.config.js",
+  "devDependencies": {
+    "nuxt": "^3.16.1"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.10.1",
+    "pinia": "^3.0.1"
+  }
 }

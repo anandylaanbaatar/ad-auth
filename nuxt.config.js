@@ -20,7 +20,7 @@ console.log(`[Layer] :: Adding AD Auth [${remote}] - v1.2.0`)
  */
 
 // const middlewares = defineNuxtConfig({
-//   middleware: [resolve("./middleware/app.global.js")],
+//   middleware: [resolve("./middleware/auth.global.js")],
 // })
 
 /**
@@ -36,6 +36,12 @@ console.log(`[Layer] :: Adding AD Auth [${remote}] - v1.2.0`)
 // export default defu(config, middlewares, modules)
 
 export default defineNuxtConfig({
-  components: true,
-  middleware: ["./middleware/app.global.js"],
+  // components: true,
+  // middleware: ["./middleware/auth.global.js"],
+
+  modules: ["@pinia/nuxt"],
+
+  pinia: {
+    storesDirs: ["stores/**"],
+  },
 })

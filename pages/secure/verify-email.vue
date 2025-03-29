@@ -49,6 +49,8 @@ export default {
       window.location.href = "/secure/verify-email"
     },
     async checkUser() {
+      console.log("Fire ::: ", this.$fire)
+
       const user = await this.$fire.actions.user()
 
       if (user) {
