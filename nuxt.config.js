@@ -3,7 +3,9 @@
 // import { defineNuxtConfig } from "nuxt/config"
 // const { resolve } = createResolver(import.meta.url)
 
-console.log("[Layer] :: Adding AD Auth - v1.2.0")
+let remote = process.env.NODE_ENV === "development" ? "Local" : "Production"
+
+console.log(`[Layer] :: Adding AD Auth [${remote}] - v1.2.0`)
 
 /**
  * Config
