@@ -36,8 +36,9 @@ console.log(`[Layer] :: Adding AD Auth [${remote}] - v1.2.0`)
 // export default defu(config, middlewares, modules)
 
 export default defineNuxtConfig({
-  // components: true,
-  // middleware: ["./middleware/auth.global.js"],
+  components: true,
+
+  middleware: ["./middleware/auth.global.js"],
 
   modules: ["@pinia/nuxt"],
 
