@@ -3,7 +3,7 @@
   "version": "1.2.0",
   "type": "module",
   "main": "./nuxt.config.js",
-  "devDependencies": {
+  "dependencies": {
     "defu": "^6.1.4",
     "nuxt": "^3.10.3"
   }
