@@ -6,6 +6,7 @@
   "dependencies": {
     "@pinia/nuxt": "^0.5.1",
     "defu": "^6.1.4",
+    "nuxt": "^3.10.3",
     "pinia": "^2.1.7"
   }
 }
