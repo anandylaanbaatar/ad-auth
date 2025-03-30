@@ -43,10 +43,4 @@ export default defineNuxtConfig({
   },
 
   middleware: ["./middleware/auth.global.js"],
-
-  modules: ["@pinia/nuxt"],
-
-  pinia: {
-    storesDirs: ["stores/**"],
-  },
 })
