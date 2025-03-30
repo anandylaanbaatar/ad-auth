@@ -37,7 +37,7 @@ console.log(`[Layer] :: Adding AD Auth [${remote}] - v1.2.0`)
 
 export default defineNuxtConfig({
   components: {
-    path: "./components",
+    path: "components",
     pathPrefix: true,
     global: true,
   },
